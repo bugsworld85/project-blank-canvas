@@ -232,8 +232,8 @@ export default {
                 })
                 .then((response) => {
                     this.calculateTotal(this.total + donated, this.total);
+                    this.success = response.data.message;
                     this.reset();
-                    this.success = response.message;
                 })
                 .catch(({ response }) => {
                     if (typeof response !== "undefined") {

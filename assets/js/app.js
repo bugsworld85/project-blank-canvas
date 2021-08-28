@@ -3441,9 +3441,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 }).then(function (response) {
                   _this3.calculateTotal(_this3.total + donated, _this3.total);
 
-                  _this3.reset();
+                  _this3.success = response.data.message;
 
-                  _this3.success = response.message;
+                  _this3.reset();
                 })["catch"](function (_ref) {
                   var response = _ref.response;
 

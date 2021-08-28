@@ -289,7 +289,7 @@ add_action('rest_api_init', function () {
 
 			return [
 				'data' => $donor,
-				'message' => 'Thank you for your donation. I will make sure to spend this on luxury items. Just kidding!'
+				'message' => 'Thank you for your donation. I will make sure to spend this on luxury items. Just kidding! Please donate more.'
 			];
 		},
 		'args' => [

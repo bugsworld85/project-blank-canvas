@@ -56,6 +56,15 @@ Download this repository from [Github](https://github.com/bugsworld85/project-bl
 - Make sure *Donation Template* is selected in the **Template** section within the current page's settings on the right side of your screen.
 - Set the page you created above as your **FrontEnd** page.
 
+### Assets Used
+
+```
+assets/icon-square-dots.svg
+assets/swish-bg.png
+assets/symbol-L.svg
+assets/istock.jpg
+```
+
 ***
 
 ## License
