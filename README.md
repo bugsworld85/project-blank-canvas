@@ -56,7 +56,18 @@ Download this repository from [Github](https://github.com/bugsworld85/project-bl
     ```
   **Note on the above structure:** The lines right after `#` are page block settings which are mandatory.
 - Make sure *Donation Template* is selected in the **Template** section within the current page's settings on the right side of your screen.
-- Set the page you created above as your **FrontEnd** page.
+- Enable WP custom fields on this page, with the following key value pair:
+  - `donation:amount`
+  - `donation:description` - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - `donation:email`
+  - `donation:first_name`
+  - `donation:last_name`
+  - `donation:payment_method` - paypal
+  - `donation:phone`
+  - `donation:target` - 4000000
+  - `donation:title` - Lorem Ipsum
+  - `donation:total` - 413078
+- Set the page you created above as your **Front Page**.
 
 ### Assets Used
 
