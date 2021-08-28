@@ -12,4 +12,6 @@ const mix = require('laravel-mix');
  */
 
 mix.js('src/index.js', 'assets/js/app.js').vue()
-    .sass('src/scss/app.scss', 'assets/css/app.css');
+    .sass('src/scss/app.scss', 'assets/css/app.css').options({
+        processCssUrls: false
+    });

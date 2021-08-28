@@ -41,8 +41,8 @@ Download this repository from [Github](https://github.com/bugsworld85/project-bl
     Page Content
     ├─Columns
     │   └─ Column #[class: top-section]
-    │       ├─ H1 Heading #[align: center, class: font-lora, color: white ]
-    │       └─ Paragraph #[align: center, class: font-montserrat, color: white]
+    │       ├─ H1 Heading #[align: center, class: font-lora, color: white]
+    │       └─ Paragraph #[align: center, class: font-montserrat, color: white, font-size: 14px]
     ├─Columns #[class: donation-block]
     │   └─ Column #[class: donation-box-container]
     │       └─ Shortcode [donation-box]
@@ -51,7 +51,7 @@ Download this repository from [Github](https://github.com/bugsworld85/project-bl
     │   │   └─ Image #[class: border-radius-sm]
     │   └─ Column #[class: donation-block-quote]
     │       ├─ H5 Heading #[class: font-lora]
-    │       └─ Paragraph #[class: font-montserrat]
+    │       └─ Paragraph #[class: font-montserrat, font-size: 14px]
     └─ Paragraph
     ```
   **Note on the above structure:** The lines right after `#` are page block settings which are mandatory.

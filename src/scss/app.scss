@@ -45,7 +45,7 @@ h6,
 }
 
 .page-template-page_donation {
-    background-image: url("/wp-content/themes/blank-canvas/assets/swish-bg.png");
+    background-image: url("../../assets/swish-bg.png");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,12 +68,12 @@ h6,
 }
 
 .donation-block-quote {
-    background-image: url("/wp-content/themes/blank-canvas/assets/icon-square-dots.svg");
+    background-image: url("../../assets/icon-square-dots.svg");
     background-repeat: no-repeat;
     &:before,
     &:after {
         content: "";
-        background-image: url("/wp-content/themes/blank-canvas/assets/symbol-L.svg");
+        background-image: url("../../assets/symbol-L.svg");
         width: 100%;
         height: 60px;
         display: block;
