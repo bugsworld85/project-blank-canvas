@@ -26,7 +26,9 @@ $ git clone git@github.com:bugsworld85/project-blank-canvas.git blank-canvas
 ```
 #### Option 2:
 
-Download this repository from [Github](https://github.com/bugsworld85/project-blank-canvas) and upload it via `Appearance->Themes` in your WP admin dashboard.
+Download this repository from [Github](https://github.com/bugsworld85/project-blank-canvas) as zip and upload it via `Appearance->Themes` in your WP admin dashboard.
+
+**Important:** Please change zip filename to `blank-canvas.zip`. Else, this theme will not work properly.
 
 **Note:** Do not forget to activate the theme within `Appearance->Themes` 
 
