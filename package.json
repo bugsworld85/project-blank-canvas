@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "name": "blank-canvas",
+    "version": "1.0.0",
+    "description": "Implement VueJS",
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "build": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "author": "Jovanni G",
+    "license": "ISC",
+    "devDependencies": {
+        "animejs": "^3.2.1",
+        "axios": "^0.21.1",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.28",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.38.1",
+        "sass-loader": "^12.1.0",
+        "vue": "^2.6.14",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.14",
+        "webpack": "^5.51.1",
+        "webpack-cli": "^4.8.0"
+    }
+}
